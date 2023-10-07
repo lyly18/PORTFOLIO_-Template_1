@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="#home">portfolio</a>
+        <i class="fa-solid fa-bars fa-xmark"></i>
+        <nav class="active nav">
+            <a class="active" href="#">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+    <section class="main" id="home">
+        <div class="icon">
+            <a href="cont.html" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="cont.html" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="cont.html" target="_blank"><i class="fa-solid fa-square-envelope"></i></a>
+        </div>
+        <div class="main-con">
+            <h1><span>Hello,</span> I'm Walaa </h1>
+            <h3>Frontend Developer</h3>
+            <p>successfully completed frontend diploma. this course is accredited by national telecommunication institute,
+                also successfully completed fullstack diploma, this course is accredited by ministry of communications and information technology  </p>
+            <a href="" class="btn">Hire Me</a>
+        </div>
+        <div class="main-img">
+            <div class="main-cir">
+                <div class="img">
+                    <img src="ima/po.jpg.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="im"><img src="ima/po.jpg.jpeg" alt=""></div>
+        <div class="content">
+            <h1>about <span>me</span></h1>
+            <h3> Junior frontend developer!  graduate (NTI & yat)</h3>
+            <p>I am a frontend web developer from menoufeia, Egypt. In my free time, I like learn, handmade and build my own projects, <span id="more" class="more">My 
+                favorite tools are JavaScript, react.js, SASS, Bootstrap, HTML, and CSS
+            .</span> </p>
+            <button id="but" class="btn">Read More</button>
+            <button id="but2" class="btn">Read Less</button>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h1> <span>Our</span> services</h1>
+        <div class="services-box">
+            <div class="box">
+                <i class="fa-solid fa-code"></i>
+                <h2>Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Possimus, maxime?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-php"></i>
+                <h2>Programming</h2>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Possimus, maxime?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-github"></i>
+                <h2>Github</h2>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Possimus, maxime?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- portofolio -->
+    <section class="portfolio" id="portfolio">
+        <h1> <span>Our</span> Projects</h1>
+        <div class="portfolio-con">
+            <div class="portfolio-box">
+                <img src="ima/3.png" alt="">
+                <div class="portfolio-layer">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Possimus, maxime?</p>
+                    <a href="task.html" target="_blank"><i class="fa-solid fa-eye-slash"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="ima/1.png" alt="">
+                <div class="portfolio-layer">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Possimus, maxime?</p>
+                    <a href="w3.html" target="_blank"><i class="fa-solid fa-eye-slash"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="ima/22.png" alt="">
+                <div class="portfolio-layer">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Possimus, maxime?</p>
+                    <a href="website.html" target="_blank"><i class="fa-solid fa-eye-slash"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="ima/4.png" alt="">
+                <div class="portfolio-layer">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Possimus, maxime?</p>
+                    <a href="../portfolio2/index.html" target="_blank"><i class="fa-solid fa-eye-slash"></i></a>
+                </div>
+
+        </div>
+    </section>
+    <!-- contact me -->
+    <section class="contact" id="contact">
+        <h1>Contact <span>Me!</span></h1>
+        <form action="#" class="form" autocomplete="off">
+            <div class="input-box">
+                <input type="text" id="fulName" placeholder="Full Name">
+                <input type="number" id="mobile" placeholder="Mobile Number">
+            </div>
+            <div class="input-box">
+                <input type="email" id="email" placeholder="E-mail">
+                <input type="text" id="emailSub" placeholder="E-mail Subject">
+            </div>
+            <textarea name="" id="textArea" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button onclick="SendMail()"  class="btn">send</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="icon">
+                <a href="cont.html" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="cont.html" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="cont.html" target="_blank"><i class="fa-solid fa-square-envelope"></i></a>
+            </div>
+            <p>Copyright &copy; 2023 by WA | All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="index.js" ></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("CrRLLYqI4AZfNQV98");
+   })();
+</script>
+
+    
+</html>
